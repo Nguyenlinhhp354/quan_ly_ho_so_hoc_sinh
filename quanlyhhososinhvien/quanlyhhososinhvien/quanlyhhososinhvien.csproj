@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>quanlyhhososinhvien</RootNamespace>
+    <AssemblyName>quanlyhhososinhvien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dangki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dangki.Designer.cs">
+      <DependentUpon>dangki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="diem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diem.Designer.cs">
+      <DependentUpon>diem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doimatkhau.Designer.cs">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hocki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hocki.Designer.cs">
+      <DependentUpon>hocki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ketquahoctap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ketquahoctap.Designer.cs">
+      <DependentUpon>ketquahoctap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lop.Designer.cs">
+      <DependentUpon>lop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quanly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quanly.Designer.cs">
+      <DependentUpon>quanly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="quanlygiaovienDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlygiaovienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet32.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet33.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet34.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet35.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet36.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet37.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quanlyhososinhvienDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>quanlyhososinhvienDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="quenmatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quenmatkhau.Designer.cs">
+      <DependentUpon>quenmatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sua.Designer.cs">
+      <DependentUpon>sua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="suadiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suadiem.Designer.cs">
+      <DependentUpon>suadiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="them.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="them.Designer.cs">
+      <DependentUpon>them.cs</DependentUpon>
+    </Compile>
+    <Compile Include="timkiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="timkiem.Designer.cs">
+      <DependentUpon>timkiem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dangki.resx">
+      <DependentUpon>dangki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="diem.resx">
+      <DependentUpon>diem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doimatkhau.resx">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hocki.resx">
+      <DependentUpon>hocki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ketquahoctap.resx">
+      <DependentUpon>ketquahoctap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lop.resx">
+      <DependentUpon>lop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="quanly.resx">
+      <DependentUpon>quanly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quenmatkhau.resx">
+      <DependentUpon>quenmatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sua.resx">
+      <DependentUpon>sua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suadiem.resx">
+      <DependentUpon>suadiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="them.resx">
+      <DependentUpon>them.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="timkiem.resx">
+      <DependentUpon>timkiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="quanlygiaovienDataSet.xsc">
+      <DependentUpon>quanlygiaovienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlygiaovienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlygiaovienDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlygiaovienDataSet.xss">
+      <DependentUpon>quanlygiaovienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet.xss">
+      <DependentUpon>quanlyhososinhvienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet1.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet1.xss">
+      <DependentUpon>quanlyhososinhvienDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet10.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet10.xss">
+      <DependentUpon>quanlyhososinhvienDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet11.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet11.xss">
+      <DependentUpon>quanlyhososinhvienDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet12.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet12.xss">
+      <DependentUpon>quanlyhososinhvienDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet13.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet13.xss">
+      <DependentUpon>quanlyhososinhvienDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet14.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet14.xss">
+      <DependentUpon>quanlyhososinhvienDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet15.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet15.xss">
+      <DependentUpon>quanlyhososinhvienDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet16.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet16.xss">
+      <DependentUpon>quanlyhososinhvienDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet17.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet17.xss">
+      <DependentUpon>quanlyhososinhvienDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet18.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet18.xss">
+      <DependentUpon>quanlyhososinhvienDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet19.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet19.xss">
+      <DependentUpon>quanlyhososinhvienDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet2.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet2.xss">
+      <DependentUpon>quanlyhososinhvienDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet20.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet20.xss">
+      <DependentUpon>quanlyhososinhvienDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet21.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet21.xss">
+      <DependentUpon>quanlyhososinhvienDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet22.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet22.xss">
+      <DependentUpon>quanlyhososinhvienDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet23.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet23.xss">
+      <DependentUpon>quanlyhososinhvienDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet24.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet24.xss">
+      <DependentUpon>quanlyhososinhvienDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet25.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet25.xss">
+      <DependentUpon>quanlyhososinhvienDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet26.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet26.xss">
+      <DependentUpon>quanlyhososinhvienDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet27.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet27.xss">
+      <DependentUpon>quanlyhososinhvienDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet28.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet28.xss">
+      <DependentUpon>quanlyhososinhvienDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet29.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet29.xss">
+      <DependentUpon>quanlyhososinhvienDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet3.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet3.xss">
+      <DependentUpon>quanlyhososinhvienDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet30.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet30.xss">
+      <DependentUpon>quanlyhososinhvienDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet31.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet31.xss">
+      <DependentUpon>quanlyhososinhvienDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet32.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet32.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet32.xss">
+      <DependentUpon>quanlyhososinhvienDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet33.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet33.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet33.xss">
+      <DependentUpon>quanlyhososinhvienDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet34.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet34.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet34.xss">
+      <DependentUpon>quanlyhososinhvienDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet35.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet35.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet35.xss">
+      <DependentUpon>quanlyhososinhvienDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet36.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet36.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet36.xss">
+      <DependentUpon>quanlyhososinhvienDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet37.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet37.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet37.xss">
+      <DependentUpon>quanlyhososinhvienDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet4.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet4.xss">
+      <DependentUpon>quanlyhososinhvienDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet5.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet5.xss">
+      <DependentUpon>quanlyhososinhvienDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet6.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet6.xss">
+      <DependentUpon>quanlyhososinhvienDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet7.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet7.xss">
+      <DependentUpon>quanlyhososinhvienDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet8.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet8.xss">
+      <DependentUpon>quanlyhososinhvienDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet9.xsc">
+      <DependentUpon>quanlyhososinhvienDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="quanlyhososinhvienDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>quanlyhososinhvienDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="quanlyhososinhvienDataSet9.xss">
+      <DependentUpon>quanlyhososinhvienDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\audi r8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

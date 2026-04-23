@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|c:\\users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4BC4B038-D6DB-4DD1-AA81-1D1FCC448EAE}|quanlyhhososinhvien.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:42:56.814Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "quanly.cs",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs",
+              "RelativeDocumentMoniker": "quanly.cs",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs",
+              "RelativeToolTip": "quanly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T05:11:45.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:57:23.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quanly.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs",
+              "RelativeDocumentMoniker": "quanly.cs",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\quanly.cs [Design]",
+              "RelativeToolTip": "quanly.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:56:15.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-20T04:43:11.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\tranh\\source\\repos\\quanlyhhososinhvien\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T04:05:04.033Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

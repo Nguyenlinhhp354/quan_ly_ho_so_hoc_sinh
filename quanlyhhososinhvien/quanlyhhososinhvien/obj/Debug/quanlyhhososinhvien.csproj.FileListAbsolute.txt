@@ -1,0 +1,33 @@
+C:\Users\tranh\source\repos\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.exe.config
+C:\Users\tranh\source\repos\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.exe
+C:\Users\tranh\source\repos\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.pdb
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csproj.AssemblyReference.cache
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.Form1.resources
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.Properties.Resources.resources
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csproj.GenerateResource.cache
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csproj.CoreCompileInputs.cache
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.exe
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.pdb
+C:\Users\tranh\source\repos\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.quanly.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.exe.config
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.exe
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\bin\Debug\quanlyhhososinhvien.pdb
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csprojAssemblyReference.cache
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.Form1.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.Properties.Resources.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.quanly.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csproj.GenerateResource.cache
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.csproj.CoreCompileInputs.cache
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.exe
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.pdb
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.sua.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.them.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.timkiem.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.dangki.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.ketquahoctap.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.lop.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.doimatkhau.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.hocki.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.diem.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.quenmatkhau.resources
+D:\Objects C#\quanlyhhososinhvien\quanlyhhososinhvien\obj\Debug\quanlyhhososinhvien.suadiem.resources
